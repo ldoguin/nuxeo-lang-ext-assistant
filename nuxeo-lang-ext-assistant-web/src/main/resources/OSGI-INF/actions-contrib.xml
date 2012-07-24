@@ -1,0 +1,12 @@
+<component name="org.nuxeo.lang.ext.assistant.actions">
+
+  <extension target="org.nuxeo.ecm.platform.actions.ActionService"
+    point="actions">
+
+    <action id="langExtAssistant" link="site/langExtAssistantRoot/"
+      label="Go to Lang Ext Assistant" order="10">
+      <category>USER_MENU_ACTIONS</category>
+    </action>
+  </extension>
+
+</component>

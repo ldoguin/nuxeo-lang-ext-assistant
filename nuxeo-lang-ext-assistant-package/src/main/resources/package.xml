@@ -1,0 +1,17 @@
+<package type="addon" name="nuxeo-lang-ext-assistant" version="@VERSION@">
+  <title>Nuxeo Lang Ext Assistant</title>
+  <description>
+    <p>Provides a WebEngine module to help translate resource bundles from nuxeo-platform-lang-ext.</p>
+  </description>
+  <vendor>Nuxeo</vendor>
+  <installer restart="true" />
+  <uninstaller restart="true" />
+
+  <production-state>testing</production-state>
+  <supported>true</supported>
+  <platforms>
+    <platform>cap-5.6</platform>
+  </platforms>
+  <license>LGPL</license>
+  <license-url></license-url>
+</package>
